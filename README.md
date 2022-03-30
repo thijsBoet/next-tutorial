@@ -6,13 +6,17 @@
 2. Nested routes are automatically according to the folder structure
 3. Dynamic routes can be created by adding square brackets to a page name
 4. Catch all routes by adding three dots in the square brackets [ ...params]
-	import { useRouter } from 'next/router'
-	const router = useRouter()
-	const { params = [] } = router.query
-	params[0] params[1] params[2]
+```javascript
+import { useRouter } from 'next/router'
+const router = useRouter()
+const { params = [] } = router.query
+params[0] params[1] params[2]
+```
 5. <Link> component to navigate
-	import Link from 'next/link'
-	<Link href="/blog">
-		<a>Blog</a>
-	</Link>
+```javascript
+import Link from 'next/link'
+<Link href="/blog">
+    <a>Blog</a>
+</Link>
+```
 6. 
