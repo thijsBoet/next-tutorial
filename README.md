@@ -5,7 +5,7 @@
 1. Page based routing mechanism - Pages are associated with a route based on their file
 2. Nested routes are automatically according to the folder structure
 3. Dynamic routes can be created by adding square brackets to a page name
-4. Catch all routes by adding three dots in the square brackets [...params]
+4. Catch all routes by adding three dots in the square brackets [ ...params]
 ```javascript```
 import { useRouter } from 'next/router'
 const router = useRouter()
