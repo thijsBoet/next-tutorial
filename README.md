@@ -1,5 +1,5 @@
 # Next Tutorial by Codevolurtion 
-[Youtube Link](https://www.youtube.com/watch?v=TaDGyvh2Ud0&list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH&index=13)
+[Youtube Link](https://www.youtube.com/watch?v=9P8mASSREYM&list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH&index=1)
 
 ## Routing
 1. Page based routing mechanism - Pages are associated with a route based on their file
@@ -19,4 +19,19 @@ import Link from 'next/link'
     <a>Blog</a>
 </Link>
 ```
-6. 
+6. useRouter hook's router.push(`./URL/${param[0]}`) method to navigate programmatically
+7. Create a custom 404 Page by creating a 404.js file in the root Pages folder
+
+## Pre-rendering & Data Fetching
+#### Types of pre-rendering
+1. Static Generation
+    - without Data
+    - with data
+    - Incremental Static Generation
+    - dynamic parameters when fetching data
+2. Server-side Rendering
+    - data fetching
+
+#### Data Fetching
+1. Client-side data fetching
+2. Combining pre-rendering with client-side data fetching
